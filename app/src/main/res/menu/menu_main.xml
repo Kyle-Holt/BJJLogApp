@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kyle.bjjlogapp.MainActivity">
+    <item
+        android:id="@+id/activity_stats"
+        android:orderInCategory="100"
+        android:title="@string/activity_stats"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/calendar_add"
+        android:orderInCategory="100"
+        android:title="@string/title_activity_calendar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:title="@string/title_activity_settings"
+        app:showAsAction="never" />
+
+
+
+</menu>
+
+    <!--
+
+
+    <item
+        android:id="@+id/pie"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    -->
